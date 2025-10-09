@@ -1,4 +1,4 @@
-# 📋 Results & Discussion
+# Results & Discussion
 
 > **In-depth analysis of sentiment classification, STS-based summarization, and key takeaways from the video game review pipeline.**
 
