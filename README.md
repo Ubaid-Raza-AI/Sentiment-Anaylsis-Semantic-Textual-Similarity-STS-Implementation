@@ -5,11 +5,11 @@
 
 > **A streamlined pipeline that analyzes game reviews, combines negative ones, and refines them using semantic similarity techniques for advanced language model processing.**
 
-## 📖 Project Overview
+## Project Overview
 
 This project implements sentiment analysis techniques to classify game reviews, aggregates negative reviews for each game, and applies semantic textual similarity methods to condense and refine the combined reviews—preparing them for advanced language models such as GPT for further analysis and summarization.
 
-## 📊 Dataset Description
+## Dataset Description
 
 The project utilizes a structured dataset of video game reviews sourced from public scraping efforts. Key details:
 
@@ -28,7 +28,7 @@ The dataset is loaded as an Excel file (`Sample_Dataset_of_games.xlsx`) with row
 | Example Game 1 | "The controls feel clunky..."  | Action  |
 | Example Game 2 | "Great story but buggy..."     | RPG     |
 
-## 🔄 Methodology / Workflow
+## Methodology / Workflow
 
 The pipeline follows a clean, step-by-step process to transform raw reviews into actionable summaries:
 
@@ -43,7 +43,7 @@ The pipeline follows a clean, step-by-step process to transform raw reviews into
 
 This approach ensures summaries are concise yet informative, typically reducing word count by 50-70% without losing critical insights.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.8+**: Core programming language.
 - **Pandas & NumPy**: Data manipulation and analysis.
@@ -56,7 +56,7 @@ This approach ensures summaries are concise yet informative, typically reducing 
 
 Full dependencies are listed in `requirements.txt`.
 
-## 📈 Results / Outputs
+## Results / Outputs
 
 The system generates per-game negative review summaries, highlighting common criticisms (e.g., "buggy mechanics and poor optimization"). Key outputs include:
 
@@ -68,7 +68,7 @@ The system generates per-game negative review summaries, highlighting common cri
 
 These outputs enable rapid trend spotting, such as recurring issues in gameplay or UI across titles.
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### Prerequisites
 - Python 3.8+ installed.
@@ -99,7 +99,7 @@ These outputs enable rapid trend spotting, such as recurring issues in gameplay 
 
 **Troubleshooting**: If additional models are needed, run `python -m spacy download en_core_web_lg` post-install.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Integrate advanced LLMs (e.g., GPT variants) for abstractive summarization beyond extractive STS.
 - Add visualization dashboards (e.g., via Streamlit) for interactive review exploration.
@@ -108,7 +108,7 @@ These outputs enable rapid trend spotting, such as recurring issues in gameplay 
 
 Contributions via pull requests are welcome!
 
-## 📜 License and Credits
+## License and Credits
 
 This project is licensed under the MIT License—feel free to use, modify, and distribute.
 
@@ -119,5 +119,4 @@ This project is licensed under the MIT License—feel free to use, modify, and d
 
 ---
 
-*Last Updated: October 09, 2025*  
-⭐ Star this repo if it helps your NLP projects!
+Star this repo if it helps your NLP projects!
