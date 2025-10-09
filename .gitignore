@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/*.xlsx  # Ignore all Excel files in the data folder
+/content/  # Colab-specific paths
+.env

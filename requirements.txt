@@ -1,0 +1,17 @@
+sentencepiece
+nltk
+sentence_transformers
+tqdm
+vaderSentiment
+pytextrank
+textblob
+transformers
+rouge-score
+sacrebleu
+bert-score
+pandas
+numpy
+spacy
+scikit-learn
+beautifulsoup4
+torch
