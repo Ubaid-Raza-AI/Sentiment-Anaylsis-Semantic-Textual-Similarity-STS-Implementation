@@ -77,7 +77,7 @@ These outputs enable rapid trend spotting, such as recurring issues in gameplay 
 ### Quick Start
 1. **Clone the Repo**:
    ```
-   git clone https://github.com/yourusername/Sentiment-STS-Implementation.git
+   git clone https://github.com/Ubaid-Raza-AI/Sentiment-Anaylsis-Semantic-Textual-Similarity-STS-Implementation-.git
    cd Sentiment-STS-Implementation
    ```
 
